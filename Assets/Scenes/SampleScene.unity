@@ -250,18 +250,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae696bac81e7ce54fb8cb0950d487037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CreatePoint:
-  - {fileID: 2136110307}
-  - {fileID: 1789215761}
-  - {fileID: 1014741378}
-  - {fileID: 1886471770}
-  - {fileID: 2044565498}
-  Gameobj:
+  GameObjects:
   - {fileID: 3055437681151766135, guid: 9145c84fb39f661488cd2fdb10451898, type: 3}
   - {fileID: 4517720289388859851, guid: 2ef99d6f6a6484e438a4ad2a4cf4183d, type: 3}
   - {fileID: 2895693328017211160, guid: 0b6f3c33ca6ee3748ace150dd0e6fe16, type: 3}
   - {fileID: 7149758816555862980, guid: 6c2ac4f22295f884fad96240e7213260, type: 3}
   - {fileID: 8329008018580254336, guid: 63e04009bb8fae249b8e5980b3dde063, type: 3}
+  CreateP:
+  - {fileID: 2136110307}
+  - {fileID: 1789215761}
+  - {fileID: 1014741378}
+  - {fileID: 1886471770}
+  - {fileID: 2044565498}
 --- !u!4 &236655214
 Transform:
   m_ObjectHideFlags: 0
