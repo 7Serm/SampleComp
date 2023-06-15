@@ -7,7 +7,7 @@ public class ColsizeChange : MonoBehaviour
 
     private CapsuleCollider Col;
 
-    [SerializeField] private int y;
+    [SerializeField] private float y;
 
     private Vector3 v3;
     // Start is called before the first frame update
@@ -15,13 +15,14 @@ public class ColsizeChange : MonoBehaviour
     {
         Col = GetComponent<CapsuleCollider>();
         
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-       v3 = new Vector3(0,y,0);
-
+        v3 = new Vector3(0, y / 2, 0);
+        Col.height = y;
         Col.center = v3;
     }
 }

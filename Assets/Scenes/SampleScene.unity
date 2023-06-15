@@ -176,7 +176,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 29d738eebfb7b514c93a114904d40710, type: 2}
+  - {fileID: 2100000, guid: 0fb337521d5bd4f40b660c0367fc516e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -622,7 +622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0718e605373c0664aba8520a3f333e0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  y: 0
+  y: 1.7
 --- !u!136 &1352564875
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -644,7 +644,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1352564873}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -695,7 +695,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1352564873}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.07140899, y: 14.3, z: 3}
+  m_LocalPosition: {x: -0.07140899, y: 14, z: 3}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
