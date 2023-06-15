@@ -6,10 +6,15 @@ using UnityEngine;
 public class CreatePbj : MonoBehaviour
 {
 
-  //  [SerializeField] private Transform[] CreatePoint;
-  //  [SerializeField] private GameObject[] Gameobj;
+    //  [SerializeField] private Transform[] CreatePoint;
+    //  [SerializeField] private GameObject[] Gameobj;
+
+
+
+    [Tooltip("MAP生成に必要なオブジェクトを入れるリストです")]
     [SerializeField] private List<GameObject> GameObjects; // MAP生成に必要なオブジェクトを入れるためのリスト
 
+    [Tooltip("生成位置を設定するための空オブジェを入れるリストです")]
     [SerializeField] private List<Transform> CreateP;　　//生成位置の場所を示す位置座標を持ったからオブジェクト
 
     private int Randnum;　　// 位置オブジェクトをランダムに選択するための変数

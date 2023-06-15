@@ -7,6 +7,7 @@ public class ColsizeChange : MonoBehaviour
 
     private CapsuleCollider Col;  // カプセルコライダーのコンポーネントを入れるための変数
 
+    [Tooltip("ここにはセンターアイアンカーをアタッチします")]
     [SerializeField] private float y;　// ここはセンターアイアンカーに入れ替わる変数　本来はGameObjectをアタッチして　transformのyの値を取得のために使う
 
     private Vector3 v3;　　//ベクター３型の変数　
