@@ -23,6 +23,6 @@ public class ColsizeChange : MonoBehaviour
     {
         v3 = new Vector3(0, y / 2, 0);　　// ｖ3に　ｘは0　ｙは高さの半分を　ｚは0　入れている
         Col.height = y;　　　　　　　　　　//高さにはセンターアイアンカーの位置を入れるようにする
-        Col.center = v3;　　　　　　　　　// センターのｙに高さの半分位置に移動いるようにしている
+        Col.center = v3; //transform.InverseTransformPoint(v3);  センターのｙに高さの半分位置に移動いるようにしている
     }
 }
