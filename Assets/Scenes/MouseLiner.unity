@@ -515,7 +515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lineMaterial: {fileID: 2100000, guid: 0fb337521d5bd4f40b660c0367fc516e, type: 2}
   lineColor: {r: 0.22102325, g: 0.9607843, b: 0, a: 0}
-  lineWidth: 0.151
+  lineWidth: 0.1
 --- !u!1 &1246976597
 GameObject:
   m_ObjectHideFlags: 0
