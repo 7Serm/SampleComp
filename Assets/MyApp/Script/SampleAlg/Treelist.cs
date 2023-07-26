@@ -1,13 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Treelist : MonoBehaviour
 {
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -20,10 +19,13 @@ public class Treelist : MonoBehaviour
 
 public class Node
 {
-    public Node nPrev;
-    public Node nNext;
-    public Node nChild;
-    public Node nParent;
+    public Node nPrev { get; set; }
+    public Node nNext { get; set; }
+
+    public Node nChild { get; set; }
+    public Node nParent { get; set; }
 }
+
+public class
 
 
